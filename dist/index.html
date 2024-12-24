@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="bg-slate-950 px-4 lg:px-8">
+        <nav class="flex items-center justify-between py-3">
+            <div class="flex-shrink-0">
+                <img src="./project/images/logo-eziline.png" alt="">
+            </div>
+            <div class="hidden text-white lg:block">
+                <ul class="flex flex-1 space-x-3 font-bold text-montserrat font-[10px]">
+                    <li>HOME</li>
+                    <li>SERVICES</li>
+                    <li>PORTFOLIO</li>
+                    <li>EZI UPDATE</li>
+                    <li>SOFTWARES</li>
+                    <li>LOGIN</li>
+                    <li>CONTACT</li>
+                </ul>
+            </div>
+            <div class="flex items-center space-x-4">
+                <div class="hidden lg:block">
+                    <a href=""
+                        class="flex items-center justify-center bg-[url('https://www.eziline.com/wp-content/uploads/71dd02f49176464168ee8120e90b1bed-1.png')] 
+                                text-white text-lg font-bold font-sans border-2 border-goldenrod h-12 w-48 px-4 py-2 rounded-xl">
+                        16th Anniversary
+                    </a>
+                </div>
+                <div class="relative">
+                    <button id="search-toggle" class="text-white text-xl">
+                        🔍
+                    </button>
+                    <div id="search-bar" class="hidden absolute right-0 top-full bg-white p-2 rounded shadow-lg">
+                        <input type="text" placeholder="Search..." class="border border-gray-300 rounded px-2 py-1">
+                    </div>
+                </div>
+                <button id="burger-toggle" class="block text-white text-2xl lg:hidden">
+                    ☰
+                </button>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="hidden lg:hidden">
+            <ul class="bg-slate-900 text-white space-y-2 p-4">
+                <li>HOME</li>
+                <li>SERVICES</li>
+                <li>PORTFOLIO</li>
+                <li>EZI UPDATE</li>
+                <li>SOFTWARES</li>
+                <li>LOGIN</li>
+                <li>CONTACT</li>
+            </ul>
+        </div>
+    </header>
+
+
+    <div class="">
+        <div>
+            <img src="./project/images/image3.png" alt="">
+        </div>
+    </div>
+    <div class="relative">
+        <div>
+            <img src="./project/images/7-15-1.jpg" alt="" class="w-full">
+        </div>
+
+        <div class="absolute inset-0 flex justify-center items-center">
+            <img src="./project/images/eziline-device-683x1024.png" alt="" class="w-1/3">
+        </div>
+    </div>
+
+    <div class="relative">
+        <img src="./project/images/landing_3_img1_mini.jpg" alt="" class="w-full h-auto">
+        <div class="absolute top-0 left-0 p-4">
+            <div class="mt-8 ml-16 text-white font-bold lg:text-4xl">
+                <p><span class="rounded-md bg-rose-900 p-2">SOFTWARE</span> DEV LIFE CYCLE</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="lg:flex">
+        <div class="bg-flexWork ">
+            <div class="text-center flex-1 py-7">
+                <div class="flex justify-center">
+                    <img src="./project/images/icons8-screen-96.png" alt="">
+                </div>
+                <h1 class="text-white text-[24px] font-bold text-montserrat my-4">FLEXIBLE PRICE</h1>
+                <p class="text-white text-[24px] text-montserrat font-light">
+                    Our pricing plan is created by our clients. Market Competitive.
+                </p>
+            </div>
+        </div>
+        <div class="bg-QualWork">
+            <div class="text-center flex-1 py-7">
+                <div class="flex justify-center">
+                    <img src="./project/images/icons8-light-bulb-96.png" alt="">
+                </div>
+                <h1 class="text-white text-[24px] font-bold text-montserrat my-4">QUALITY WORK</h1>
+                <p class="text-white text-[24px] text-montserrat font-light">
+                    Quality assurance & testing befoe every project delivery.
+                </p>
+            </div>
+        </div>
+        <div class="bg-QuickDel">
+            <div class="text-center flex-1 py-7">
+                <div class="flex justify-center">
+                    <img src="./project/images/icons8-trophy-100.png" alt="">
+                </div>
+                <h1 class="text-white text-[24px] font-bold text-montserrat my-4">QUICK DELIVERY</h1>
+                <p class="text-white text-[24px] text-montserrat font-light">
+                    40 days initial delivery on custom mega projects.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="relative w-full overflow-hidden no-scrollbar ">
+        <div class="text-blue font-bold ml-[100px] mt-4 text-2xl text-montserrat">OUR CLIENTS</div>
+        <button id="scrollLeft"
+            class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full">
+            ←
+        </button>
+        <div id="imageContainer" class="flex gap-8 no-scrollbar overflow-x-auto scroll-smooth w-full px-16 my-8">
+            <img src="./project/images/134-13.png" alt="Image 1" class="w-26 h-26 object-cover rounded-lg" />
+            <img src="./project/images/134-13.png" alt="Image 2" class="w-26 h-26 object-cover rounded-lg" />
+            <img src="./project/images/137-13-13-1.png" alt="Image 3" class="w-26 h-26 object-cover rounded-lg" />
+            <img src="./project/images/138-13.png" alt="Image 4" class="w-26 h-26 object-cover rounded-lg" />
+            <img src="./project/images/Artboard-3-copy-2.png" alt="Image 1" class="w-26 h-26 object-cover rounded-lg" />
+            <img src="./project/images/Artboard-3-copy-3.png" alt="Image 2" class="w-26 h-26 object-cover rounded-lg" />
+            <img src="./project/images/Artboard-3-copy-4.png" alt="Image 3" class="w-26 h-26 object-cover rounded-lg" />
+            <img src="./project/images/Artboard-3-copy-11.png" alt="Image 4"
+                class="w-26 h-26 object-cover rounded-lg" />
+            <img src="./project/images/Artboard-3-copy.png" alt="Image 1" class="w-26 h-26 object-cover rounded-lg" />
+            <img src="./project/images/desinging.png" alt="Image 2" class="w-26 h-26 object-cover rounded-lg" />
+            <img src="./project/images/1310-13.png" alt="Image 3" class="w-26 h-26 object-cover rounded-lg" />
+            <img src="./project/images/1314-13-1.png" alt="Image 4" class="w-26 h-26 object-cover rounded-lg" />
+            <img src="./project/images/134-13.png" alt="Image 5" class="w-26 h-26 object-cover rounded-lg" />
+        </div>
+        <button id="scrollRight"
+            class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full">
+            →
+        </button>
+    </div>
+
+    <div class="lg:flex bg-footerColor text-fontColor px-8 py-16 gap-8">
+
+        <div class="flex-1">
+            <h4 class="text-xl font-bold my-5 text-white">ABOUT</h4>
+            <p class="text-sm my-8 leading-relaxed">
+                Tech House Having 100+ Quality Products and Innovations at national and international markets. Rated as
+                Best Software House in Region
+            </p>
+            <div class="flex space-x-4 my-5">
+                <img src="./project/images/pcb.png" alt="" class="h-10">
+                <img src="./project/images/pcb2.png" alt="" class="h-10">
+            </div>
+        </div>
+
+
+        <div class="flex-1">
+            <h4 class="text-xl font-bold my-5 text-white">RECENT POSTS</h4>
+            <div class="flex items-start mb-6">
+                <div class="px-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                        class="w-6 h-6 text-white">
+                        <path fill-rule="evenodd"
+                            d="M6.75 2.25A.75.75 0 0 1 7.5 3v1.5h9V3A.75.75 0 0 1 18 3v1.5h.75a3 3 0 0 1 3 3v11.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V7.5a3 3 0 0 1 3-3H6V3a.75.75 0 0 1 .75-.75Zm13.5 9a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-7.5Z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </div>
+                <div>
+                    <p>Presedential Awards Won by Eziline</p>
+                    <p>Software House in IT Sector</p>
+                    <p class="text-cyan-500 text-xs">February 20, 2023</p>
+                </div>
+            </div>
+            <div class="h-px w-full bg-slate-700 my-4"></div>
+            <div class="flex items-start mb-6">
+                <div class="px-4">
+                    <img src="./project/images/arif-alvi.jpg" alt="" class="rounded-full h-12 w-12">
+                </div>
+                <div>
+                    <p>Presedential Awards Won by Eziline</p>
+                    <p>Software House in IT Sector</p>
+                    <p class="text-cyan-500 text-xs">February 20, 2023</p>
+                </div>
+            </div>
+            <div class="h-px w-full bg-slate-700 my-4"></div>
+            <div class="flex items-start">
+                <div class="px-4">
+                    <img src="./project/images/head.jpg" alt="" class="rounded-full h-12 w-12">
+                </div>
+                <div>
+                    <p>Presedential Awards Won by Eziline</p>
+                    <p>Software House in IT Sector</p>
+                    <p class="text-cyan-500 text-xs">February 20, 2023</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex-1">
+            <h4 class="text-xl font-bold my-5 text-white">CONTACT</h4>
+            <div class="text-sm leading-relaxed space-y-4">
+                <p>
+                    <strong class="text-white">PK Office</strong>: 304-G, Amna Plaza Pesh Rd Rawalpindi<br>
+                    <strong class="text-white">US Office</strong>: 16192 Coastal Highway Lewes, DE<br>
+                    <strong class="text-white">UK Office</strong>: Intl. House, 776-778 Barking Rd London<br>
+                    <strong class="text-white">FR Office</strong>: 5 avenue Pierre Salvi 95500 Gonesse Paris
+                </p>
+                <p>
+                    Ph : +92 51 5491184 / +92 51 8772888<br>
+                    Email : info[@]eziline.com
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <div class="lg:flex justify-around bg-slate-900 text-fontColor text-sm text-sans font-[16px] py-7 ">
+
+            <div class="flex justify-center py-4">
+                2022 © Copyrights Eziline Software House
+            </div>
+            <div class="py-4">
+                <ul class="flex flex-wrap justify-between items-center space-x-4 text-fontColor">
+                    <li class="relative">
+                        Career
+                        <span
+                            class="absolute right-[-10px] top-1/2 h-3 border-l-2 border-gray-700 transform -translate-y-1/2"></span>
+                    </li>
+                    <li class="relative">
+                        Internships
+                        <span
+                            class="absolute right-[-10px] top-1/2 h-3 border-l-2 border-gray-700 transform -translate-y-1/2"></span>
+                    </li>
+                    <li class="relative">
+                        Ezi Products
+                        <span
+                            class="absolute right-[-10px] top-1/2 h-3 border-l-2 border-gray-700 transform -translate-y-1/2"></span>
+                    </li>
+                    <li class=" relative">
+                        Terms & Conditions
+                        <span
+                            class="absolute right-[-10px] top-1/2 h-3 border-l-2 border-gray-700 transform -translate-y-1/2"></span>
+                    </li>
+                    <li>Bank</li>
+                </ul>
+            </div>
+
+            <div class="flex justify-center py-4 gap-5 px-3">
+                <div><img src="https://img.icons8.com/?size=100&id=118497&format=png&color=000000" class="h-6"
+                        width="auto">
+                </div>
+                <div><img src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" class="h-6"
+                        width="auto">
+                </div>
+                <div><img src="https://img.icons8.com/?size=100&id=ClbD5JTFM7FA&format=png&color=000000" class="h-6"
+                        width="auto">
+                </div>
+                <div><img src="https://img.icons8.com/?size=100&id=omVNNE6wkyP7&format=png&color=000000" class="h-6"
+                        width="auto">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
